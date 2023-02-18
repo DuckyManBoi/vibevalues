@@ -1,0 +1,83 @@
+/* Load in your font */
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+.select-box--container {
+  height: 35px;
+  background-color: #3f1e7e;
+  width: 15vmin;
+  margin: 0;
+  padding: 0;
+  border-radius: 1vmin;
+  box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1);
+  user-select: none;
+}
+
+.select-box--container--close2 {
+  height: 30px;
+  background-color: #3f1e7e;
+  width: 15vmin;
+  margin: 0;
+  padding: 0;
+  border-radius: 1vmin;
+  user-select: none;
+}
+
+.select-box--container--open {
+  position: fixed;
+  border-radius: 1vmin;
+  box-shadow: 0px 0px 4px 4px rgba(255, 255, 255, 0.1);
+  height: 25.5vmin;
+  background-color: #3f1e7e;
+  width: 15vmin;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+.select-box--container--close {
+  position: fixed;
+  user-select: none;
+}
+
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.select-box--box {
+  width: 200px;
+  position: absolute;
+  left: 15px;
+  user-select: none;
+}
+
+.select-box--selected-item {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding-top: 0.31vmin;
+  padding-left: 1vmin;
+  font-size: 2.3vmin;
+  vertical-align: left;
+  color: white;
+  font-family: Lato;
+  user-select: none;
+}
+
+.select-box--items div {
+  padding: 5px;
+  color: white;
+  font-family: Lato;
+  user-select: none;
+}
+
+.select-box--arrow {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 1.4vmin;
+  user-select: none;
+}
